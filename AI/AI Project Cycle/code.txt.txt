@@ -1,0 +1,15 @@
+outlook = input("What is the outlook: ")
+if outlook == "sunny":
+    humidity = input("What is the humidity: ")
+    if humidity == "high":
+        print("NO")
+    elif humidity == "normal":
+        print("YES")
+elif outlook == "rain":
+    wind = input("How's the wind: ")
+    if wind == "strong":
+        print("NO")
+    elif wind == "weak":
+        print("YES")
+else:
+    print("YES")
